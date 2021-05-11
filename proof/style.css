@@ -1,0 +1,113 @@
+
+@font-face {
+  font-family: "GrotesqueMT-BoldExtended";
+  src: url("GrotesqueMT-BoldExtended.otf");
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: white;
+  font-family: 'GrotesqueMT-BoldExtended';
+}
+
+.logo {
+	max-width: 40%;
+	padding: 5% 30% 2% 30%;
+}
+
+.menu {
+	display: flex;
+}
+
+ul {
+	padding: 0;
+	margin: 2% 5% 5% 5%;
+}
+
+.menu li {
+	list-style-type: none;
+	flex: 1;
+	align-self: center;
+	text-align: center;
+	background: #D3C3D8;
+	margin: 0 20px;
+	padding: 20px 0px;
+}
+
+a {
+	text-decoration: none;
+	color: #39499A;
+}
+
+a:hover {
+	font-style: italic;
+}
+
+a:visited {
+	color: #39499A;
+}
+
+h1 {
+	text-align: center;
+}
+
+h4 {
+	margin: 3% 5%;
+	font-family: 'Roboto', sans-serif;
+}
+
+.explain {
+	display: flex;
+	margin: 3% 5%;
+}
+
+.ex1 {
+	flex: 1;
+}
+
+.red {
+	color: #D02630;
+}
+
+canvas {
+  display: block;
+}
+
+.recordingstation {
+  text-align: center;
+  padding: 0 50px 50px 50px;
+}
+
+.recordingRow1 {
+  /*flex: 1;*/
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto;
+  grid-gap: 10%;
+  background: #39499A;
+  padding: 20px;
+}
+
+.recordingRow2 {
+  /*flex: 1;*/
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto;
+  grid-gap: 10%;
+  background: #D3C4D8;
+  padding: 20px;
+}
+
+.grid-item {
+  display: grid;
+  grid-template-rows: auto auto auto auto auto auto auto;
+  padding: 20px;
+}
+
+button {
+  background: white;
+  font-family: 'GrotesqueMT-BoldExtended';
+  font-size: 1em;
+  padding: 10px;
+  border: 2px solid black;
+  margin: 0 5% 0 5%;
+}

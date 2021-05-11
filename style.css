@@ -1,0 +1,87 @@
+
+@font-face {
+  font-family: "GrotesqueMT-BoldExtended";
+  src: url("GrotesqueMT-BoldExtended.otf");
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: white;
+  font-family: 'GrotesqueMT-BoldExtended';
+}
+
+
+.logo {
+	max-width: 40%;
+	padding: 5% 30% 2% 30%;
+}
+
+.menu {
+	display: flex;
+}
+
+ul {
+	padding: 0;
+	margin: 2% 5% 5% 5%;
+}
+
+.menu li {
+	list-style-type: none;
+	flex: 1;
+	align-self: center;
+	text-align: center;
+	background: #D3C3D8;
+	margin: 0 20px;
+	padding: 20px 0px;
+}
+
+h1 {
+	text-align: center;
+}
+
+.intro {
+	display: flex;
+	margin: 0 5%;
+	padding: 5%;
+	border: 10px solid #D3C3D8;
+}
+
+.intro-img img {
+	max-width: 100%;
+}
+
+.intro-img {
+	flex: 2;
+	align-self: center;
+	text-align: center;
+}
+
+.intro-text {
+	flex: .5;
+	align-self: center;
+	text-align: center;
+	font-size: 2em;
+}
+
+.intro-img p {
+	text-transform: uppercase;
+}
+
+h4 {
+	margin: 3% 5%;
+	font-family: 'Roboto', sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color: #39499A;
+}
+
+a:hover {
+	font-style: italic;
+}
+
+a:visited {
+	color: #39499A;
+}
